@@ -32,14 +32,14 @@ welcoming and inclusive.
 
 ### 🐛 Reporting Bugs
 
-- Search [issues](https://github.com/imfsiddiqui/nexus/issues) to check if the
+- Search [issues](https://github.com/imfsiddiqui/Heena Sharma/issues) to check if the
   bug is already reported.
 - Open a new issue with a clear title and detailed description.
 - Include steps to reproduce, expected behavior, and screenshots if possible.
 
 ### ✨ Suggesting Features
 
-- Search [issues](https://github.com/imfsiddiqui/nexus/issues) for similar
+- Search [issues](https://github.com/imfsiddiqui/Heena Sharma/issues) for similar
   feature requests.
 - Open a new issue describing your idea, its use case, and possible
   alternatives.
@@ -47,7 +47,7 @@ welcoming and inclusive.
 ### 🛠️ Submitting Changes
 
 - **Fork** the repository.
-- **Clone** your fork: `git clone https://github.com/<your-username>/nexus.git`.
+- **Clone** your fork: `git clone https://github.com/<your-username>/Heena Sharma.git`.
 - **Create a branch** for your change using following naming convention to help
   quickly identify the purpose of your changes.
   - Branch name convention: `{type}/your-branch-name`, where `{type}` is one of
@@ -85,6 +85,6 @@ welcoming and inclusive.
 ## 📜 License
 
 By contributing, you agree that your contributions will be licensed under the
-[MIT License](https://github.com/imfsiddiqui/nexus/blob/main/LICENSE.md).
+[MIT License](https://github.com/imfsiddiqui/Heena Sharma/blob/main/LICENSE.md).
 
 <p align="right"><a href="#top">☝️</a></p>
