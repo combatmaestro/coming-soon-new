@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <script type="module" src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Open Graph Tags -->
     <meta property="og:title" content="Revelist | Coming Soon" />
@@ -37,6 +38,56 @@
       content="Revelist is coming soon! Stay tuned for the big reveal!"
     />
     <meta name="twitter:image:alt" content="Revelist | Coming Soon" />
+   <style>
+#hourglass {
+  font-size: 5rem; /* Adjust size */
+  color: #ffc400;
+  opacity: 1;
+  display: inline-block;
+  position: relative;
+}
+
+#hourglass i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  animation: hourglass 2.4s ease-in infinite, hourglass-spin 2.4s ease-out infinite;
+}
+
+#hourglass i:nth-child(1) { color: #ffc400; animation-delay: 0s, 0s; }
+#hourglass i:nth-child(2) { color: #ffc400; animation-delay: 0.6s, 0s; }
+#hourglass i:nth-child(3) { color: #ffab00; animation-delay: 1.2s, 0s; }
+#hourglass i:nth-child(4) { color: #ffc400; animation: hourglass-end 2.4s ease-in infinite, hourglass-spin 2.4s ease-out infinite; animation-delay: 1.8s, 0s; }
+#hourglass i:nth-child(5) { color: #006064; opacity: 1; animation: hourglass-spin 2.4s ease-out infinite; }
+
+@keyframes hourglass {
+  0% { opacity: 1; }
+  24% { opacity: 0.9; }
+  26% { opacity: 0; }
+}
+
+@keyframes hourglass-end {
+  0% { opacity: 0; }
+  70% { opacity: 0; }
+  75% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes hourglass-spin {
+  75% { transform: rotate(0deg); }
+  100% { transform: rotate(180deg); }
+}
+
+/* Optional: center page layout */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+</style>
+
   </head>
 
   <body>
@@ -76,7 +127,13 @@
             skincare for all.
           </h2>
           <h1 class="title">
-            <span aria-hidden="true">🔮🪄⏳🚀🎉</span>
+           <span id="hourglass" class="fa-stack fa-2x" aria-hidden="true">
+            <i class="fa fa-stack-1x fa-hourglass-start"></i>
+            <i class="fa fa-stack-1x fa-hourglass-half"></i>
+            <i class="fa fa-stack-1x fa-hourglass-end"></i>
+            <i class="fa fa-stack-1x fa-hourglass-end"></i>
+            <i class="fa fa-stack-1x fa-hourglass-o"></i>
+          </span>
             <br />
             <span>Something Amazing Is Coming Soon</span>
           </h1>
